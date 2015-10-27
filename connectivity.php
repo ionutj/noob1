@@ -21,7 +21,7 @@ if(!empty($_POST['user']))   //checking the 'user' name which is from sign_in.ht
 	{
 		$_SESSION['userName'] = $row['pass'];
 		
-		echo "<font color='red'>SUCCESSFULLY LOGIN To your N O O B page...</font>"; 
+		echo "<font color='red'>SUCCESSFULLY1 LOGIN To your N O O B page...</font>"; 
 		echo '<p align="left"><img src="noob0.png" alt="Alex - Noob0" />';
 		echo '<p align="left"><img src="alex1.jpg" alt="Alex - Yalta" />';
 		echo '<p align="left"><img src="alexinvaslui.jpg" alt="Vaslui" />';
